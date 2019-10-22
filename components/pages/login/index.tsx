@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../header";
 import "./login.css";
 
-const trans = require("../../../assets/images/img-landing-trans.png");
 const Login: React.FC = () => {
     return (
 			<div className={'wrap'}>

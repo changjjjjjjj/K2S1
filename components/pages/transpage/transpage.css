@@ -1,0 +1,34 @@
+.trans-target{
+	display: inline-block;
+	width: 330px;
+	height: 329px;
+	line-height: 329px;
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 100px;
+	font-weight: bold;
+	border: dashed 2px #b0b0bc;
+	vertical-align: top;
+}
+
+.trans-box-img{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-top: 140px;
+}
+
+.trans-complete{
+	display: inline-block;
+	width: 330px;
+	height: 329px;
+	line-height: 329px;
+	margin-top: 20px;
+	vertical-align: top;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 8px;
+	box-shadow: 1px 4px 15px 0 rgba(0, 0, 0, 0.25);
+}

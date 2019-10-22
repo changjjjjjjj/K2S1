@@ -19,7 +19,7 @@ const Landing: React.FC = () => {
 								<div className={'landing-box-text'}>
 									{'설명 문구 추가'}
 								</div>
-								<div className={'trans-link'}>변환하기</div>
+								<Link to={'/transpage'} className={'trans-link'}>변환하기</Link>
 							</div>
 						</div>
 					</div>
