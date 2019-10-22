@@ -1,0 +1,52 @@
+
+.header {
+	width: 100%;
+	min-width: 1200px;
+	height: 72px;
+	line-height: 72px;
+    margin-top: 0px;
+	box-shadow: 1px 4px 15px 0 rgba(0, 0, 0, 0.25);
+    text-align: left;
+}
+
+.header-1200{
+	position: relative;
+	width: 1200px;
+	margin: auto;
+}
+
+.header-logo {
+	position: absolute;
+	left: 143px;
+	width: 135px;
+	height: 60px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.header-login{
+	position: absolute;
+	top: 15px;
+	right: 250px;
+	width: 112px;
+	height: 39px;
+	line-height: 39px;
+	font-size: 18px;
+	background-color: #0057b2;
+	border-radius: 6px;
+	text-align: center;
+	box-shadow: 1px 4px 15px 0 rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+
+.header-signup{
+	position: absolute;
+	right: 143px;
+	height: 19px;
+	font-size: 18px;
+	color: #0057b2;
+	text-decoration: none;
+}
+
