@@ -10,15 +10,17 @@ const Transpage: React.FC = () => {
 				<div className={'wrap'}>
 					<Header/>
 					<div className={'landing-container'}>
-						<div className={'landing-box'}>
-							<div className={'trans-target'}>
-								{'+'}
+						<div className={'landing-container-cover'}>
+							<div className={'landing-box'}>
+								<div className={'trans-target'}>
+									{'+'}
+								</div>
+								<img className={'trans-box-img'} src={trans} alt=""/>
+								<div className={'trans-complete'}>
+									{'내 컴퓨터에 저장하기'}
+								</div>
 							</div>
-							<img className={'trans-box-img'} src={trans} alt=""/>
-							<div className={'trans-complete'}>
-								{'내 컴퓨터에 저장하기'}
-							</div>
-						</div>
+						</div>	
 					</div>
 				</div>
     );
